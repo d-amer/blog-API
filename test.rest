@@ -1,0 +1,26 @@
+POST http://localhost:3000/posts/new
+Content-Type: application/json
+
+{
+    "title": "first post",
+    "content": "lorem ipsum"
+}
+
+###
+
+GET http://localhost:3000/api
+Content-Type: application/json
+
+###
+POST http://localhost:3000/sign-up
+Content-Type: application/json
+
+{
+    "username":"agentorange",
+    "email" : "hell90@kitty.com",
+    "password": "lorem123"
+}
+
+###
+GET http://localhost:3000/users
+Content-Type: application/json
